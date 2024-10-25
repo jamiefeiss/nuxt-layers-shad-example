@@ -4,6 +4,6 @@ export default defineNuxtConfig({
     devtools: { enabled: true },
     modules: ['@nuxtjs/tailwindcss'],
     extends: [
-        ["../base", { install: true }]
+        ["github:jamiefeiss/nuxt-layers-shad-example/base", { install: true }]
     ]
 })
