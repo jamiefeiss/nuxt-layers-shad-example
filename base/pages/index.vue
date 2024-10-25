@@ -1,6 +1,3 @@
 <template>
-    Base layer home page
-    <div class="card">
-        card text
-    </div>
+    <div>Base layer home page</div>
 </template>

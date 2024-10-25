@@ -1,9 +1,12 @@
-export default {
+/** @type {import('tailwindcss').Config} */
+module.exports = {
     theme: {
         extend: {
             colors: {
-                primary: 'green'
-            }
-        }
+                primary: {
+                    DEFAULT: "orange",
+                },
+            },
+        },
     },
 }
